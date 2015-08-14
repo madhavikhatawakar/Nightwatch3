@@ -14,7 +14,7 @@
     
    
 };*/
-
+module.exports = {
   'Demo test Google' : function (client) {
     client
       .url('http://www.google.com')
@@ -30,3 +30,4 @@
       .end();
   }
 };
+
