@@ -31,12 +31,12 @@ module.exports = function(grunt) {
 
 };*/
 
-//module.exports = function(grunt) {
+module.exports = function(grunt) {
 
   // Project configuration.
  
     // Before generating any new files, remove any previously-created files.
-/*var nightwatch = require('nightwatch');
+var nightwatch = require('nightwatch');
   nightwatch.initGrunt(grunt);
   grunt.initConfig({
   nightwatch: {
@@ -88,8 +88,8 @@ module.exports = function(grunt) {
     
   grunt.registerTask('default', ['gen-test']);
 
-};*/
-module.exports = function(grunt) {
+};
+/*module.exports = function(grunt) {
   grunt.initConfig({
 
 nightwatch: {
@@ -125,3 +125,4 @@ grunt.loadNpmTasks('grunt-nightwatch');
 grunt.registerTask('default','nightwatch');
 
 };
+*/
