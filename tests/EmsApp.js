@@ -1,4 +1,4 @@
-/*module.exports = {
+module.exports = {
   'Demo test Ems App' : function (client) {
     client
       .url('http://localhost:5024/EmployeeApplicationSprint4-1.0-SNAPSHOT')
@@ -13,8 +13,8 @@
   }
     
    
-};*/
-module.exports = {
+};
+/*module.exports = {
   'Demo test Google' : function (client) {
     client
       .url('http://www.google.com')
@@ -29,5 +29,5 @@ module.exports = {
         'Rembrandt - Wikipedia')
       .end();
   }
-};
+};*/
 
