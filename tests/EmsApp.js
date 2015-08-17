@@ -1,7 +1,7 @@
 module.exports = {
   'Demo test Ems App' : function (client) {
     client
-      .url('http://localhost:5024/EmployeeApplicationSprint4-1.0-SNAPSHOT')
+      .url('http://172.27.59.112:5024/EmployeeApplicationSprint4-1.0-SNAPSHOT')
       .waitForElementVisible('body', 1000)
      .assert.urlEquals('http://localhost:5024/EmployeeApplicationSprint4-1.0-SNAPSHOT')
      // .assert.visible("#ListEmployeeLink")
