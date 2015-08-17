@@ -3,7 +3,7 @@ module.exports = {
     client
       .url('http://localhost:5024/EmployeeApplicationSprint4-1.0-SNAPSHOT')
       .waitForElementVisible('body', 1000)
-     .assert.urlEquals('http://localhost:5024/EmployeeApplicationSprint4-1.0-SNAPSHOT/')
+     .assert.urlEquals('http://localhost:5024/EmployeeApplicationSprint4-1.0-SNAPSHOT')
      // .assert.visible("#ListEmployeeLink")
       .click("#ListEmployeeLink")
      .pause(5000)
