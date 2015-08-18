@@ -8,7 +8,7 @@ module.exports = {
       .click("#ListEmployeeLink")
      .pause(5000)
       .verify.elementPresent("body > div.smart-green > table > tbody > tr:nth-child(4) > td:nth-child(5) > a")
-    .verify.elementPresent("body > div.smart-green > table > tbody > tr:nth-child(6) > td:nth-child(5) > a")
+    //.verify.elementPresent("body > div.smart-green > table > tbody > tr:nth-child(6) > td:nth-child(5) > a")
      .end();
   }
     
