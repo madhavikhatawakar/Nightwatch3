@@ -10,7 +10,7 @@ module.exports = function(grunt) {
 
     'default' : {},
 
-    browserstack: {
+    /*browserstack: {
       argv: {
         env: 'browserstack'
       },
@@ -23,7 +23,7 @@ module.exports = function(grunt) {
       argv: {
         env: 'default,browserstack'
       }
-    },
+    },*/
   }
 });
 
