@@ -1,4 +1,4 @@
-/*running
+//running
 module.exports = function(grunt) {
   var nightwatch = require('nightwatch');
   nightwatch.initGrunt(grunt);
@@ -29,9 +29,9 @@ module.exports = function(grunt) {
 
  grunt.registerTask('default', ['nightwatch']);
 
-};*/
+};
 
-module.exports = function(grunt) {
+/*module.exports = function(grunt) {
 
   // Project configuration.
  
@@ -89,3 +89,4 @@ var nightwatch = require('nightwatch');
   grunt.registerTask('default', ['gen-test']);
 
 };
+*/
