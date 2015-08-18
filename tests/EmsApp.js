@@ -3,12 +3,12 @@ module.exports = {
     client
       .url('http://172.27.59.112:5024/EmployeeApplicationSprint4-1.0-SNAPSHOT')
       .waitForElementVisible('body', 1000)
-     .assert.urlEquals('http://172.27.59.112:5024/EmployeeApplicationSprint4-1.0-SNAPSHOT/')
+     .verify.urlEquals('http://172.27.59.112:5024/EmployeeApplicationSprint4-1.0-SNAPSHOT/')
      // .assert.visible("#ListEmployeeLink")
       .click("#ListEmployeeLink")
      .pause(5000)
-      .assert.elementPresent("body > div.smart-green > table > tbody > tr:nth-child(4) > td:nth-child(5) > a")
-    .assert.elementPresent("body > div.smart-green > table > tbody > tr:nth-child(6) > td:nth-child(5) > a")
+      .verify.elementPresent("body > div.smart-green > table > tbody > tr:nth-child(4) > td:nth-child(5) > a")
+    .verify.elementPresent("body > div.smart-green > table > tbody > tr:nth-child(6) > td:nth-child(5) > a")
      .end();
   }
     
